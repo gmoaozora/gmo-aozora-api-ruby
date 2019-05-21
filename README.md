@@ -95,4 +95,4 @@ GMO Aozora Net Bank, Ltd. (open-api@gmo-aozora.com)
 
 ## Licence
 
-[MIT](https://github.com/gmoaozora/gmo-aozora-api-ruby/blob/master/LICENCE)
+[MIT](https://github.com/gmoaozora/gmo-aozora-api-ruby/blob/master/LICENSE)
