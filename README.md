@@ -89,10 +89,10 @@ ruby -Ilib script.rb
  - [Webhook](docs/webhook)
 
 
-## Autor
+## Author
 
 GMO Aozora Net Bank, Ltd. (open-api@gmo-aozora.com)
 
-## Licence
+## License
 
 [MIT](https://github.com/gmoaozora/gmo-aozora-api-ruby/blob/master/LICENSE)
