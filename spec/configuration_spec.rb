@@ -13,7 +13,7 @@ Swagger Codegen version: 2.4.0
 require 'spec_helper'
 
 describe SwaggerClient::Configuration do
-  let(:config) { SwaggerClient::Configuration.default }
+  let(:config) { SwaggerClient::Configuration.default('private') }
 
   before(:each) do
     # uncomment below to setup host and base_path
