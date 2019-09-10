@@ -118,6 +118,7 @@ module SwaggerClient
 
       if [:post, :patch, :put, :delete].include?(http_method)
         req_body = build_request_body(header_params, form_params, opts[:body])
+        req_opts.delete :params
         req_opts.update :body => req_body
         if @config.debugging
           @config.logger.debug "HTTP request body param ~BEGIN~\n#{req_body}\n~END~\n"

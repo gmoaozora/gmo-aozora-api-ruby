@@ -16,7 +16,7 @@ module SwaggerClient
   class TransferApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default("private"))
+    def initialize(api_client = ApiClient.default("personal"))
       @api_client = api_client
     end
     # つかいわけ口座間振替

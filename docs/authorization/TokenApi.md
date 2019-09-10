@@ -8,7 +8,7 @@ Method | HTTP request | Description
 
 
 # **token_using_post**
-> TokenResponse token_using_post(content_type, body, opts)
+> TokenResponse token_using_post(body, opts)
 
 アクセストークン発行
 
@@ -21,8 +21,6 @@ require 'swagger_client'
 
 api_instance = SwaggerClient::TokenApi.new
 
-content_type = 'content_type_example' # String | application/x-www-form-urlencodedに固定
-
 body = SwaggerClient::TokenRequest.new # TokenRequest | HTTPリクエストボディ
 
 opts = { 
@@ -31,7 +29,7 @@ opts = {
 
 begin
   #アクセストークン発行
-  result = api_instance.token_using_post(content_type, body, opts)
+  result = api_instance.token_using_post(body, opts)
   p result
 rescue SwaggerClient::ApiError => e
   puts "Exception when calling TokenApi->token_using_post: #{e}"
@@ -42,7 +40,6 @@ end
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **content_type** | **String**| application/x-www-form-urlencodedに固定 | 
  **body** | [**TokenRequest**](TokenRequest.md)| HTTPリクエストボディ | 
  **authorization** | **String**| クライアント認証用のBasic認証値。 (クライアントIDとクライアントシーレットを:(コロン)で連結し、Base64エンコードしたものを設定。) 事前に登録する「クライアント認証方式」にclient_secret_basic(ベーシック認証)を設定した場合、必須。 「クライアント認証方式」にclient_secret_post(パラメーター認証)を設定した場合、設定不要。 | [optional] 
 

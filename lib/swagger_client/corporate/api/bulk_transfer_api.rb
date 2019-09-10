@@ -16,7 +16,7 @@ module SwaggerClient
   class BulkTransferApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default("corporate"))
+    def initialize(api_client = ApiClient.default("corporation"))
       @api_client = api_client
     end
     # 総合振込取消依頼
