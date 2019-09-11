@@ -16,7 +16,7 @@ module SwaggerClient
   class VirtualAccountApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default("private"))
+    def initialize(api_client = ApiClient.default("personal"))
       @api_client = api_client
     end
     # 振込入金口座入金明細照会
