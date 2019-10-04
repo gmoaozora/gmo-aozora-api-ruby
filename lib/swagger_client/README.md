@@ -82,81 +82,81 @@ All URIs are relative to *https://stg-api.gmo-aozora.com/ganb/stg-api/corporatio
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*SwaggerClient::AccountApi* | [**accounts_deposit_transactions_using_get**](docs/AccountApi.md#accounts_deposit_transactions_using_get) | **GET** /accounts/deposit-transactions | 振込入金明細照会
-*SwaggerClient::AccountApi* | [**accounts_using_get**](docs/AccountApi.md#accounts_using_get) | **GET** /accounts | 口座一覧照会
-*SwaggerClient::AccountApi* | [**balances_using_get**](docs/AccountApi.md#balances_using_get) | **GET** /accounts/balances | 残高照会
-*SwaggerClient::AccountApi* | [**transactions_using_get**](docs/AccountApi.md#transactions_using_get) | **GET** /accounts/transactions | 入出金明細照会
-*SwaggerClient::BulkTransferApi* | [**bulk_transfer_cancel_using_post**](docs/BulkTransferApi.md#bulk_transfer_cancel_using_post) | **POST** /bulktransfer/cancel | 総合振込取消依頼
-*SwaggerClient::BulkTransferApi* | [**bulk_transfer_fee_using_post**](docs/BulkTransferApi.md#bulk_transfer_fee_using_post) | **POST** /bulktransfer/transferfee | 総合振込手数料事前照会
-*SwaggerClient::BulkTransferApi* | [**bulk_transfer_request_result_using_get**](docs/BulkTransferApi.md#bulk_transfer_request_result_using_get) | **GET** /bulktransfer/request-result | 総合振込依頼結果照会
-*SwaggerClient::BulkTransferApi* | [**bulk_transfer_request_using_post**](docs/BulkTransferApi.md#bulk_transfer_request_using_post) | **POST** /bulktransfer/request | 総合振込依頼
-*SwaggerClient::BulkTransferApi* | [**bulk_transfer_status_using_get**](docs/BulkTransferApi.md#bulk_transfer_status_using_get) | **GET** /bulktransfer/status | 総合振込状況照会
-*SwaggerClient::TransferApi* | [**transfer_cancel_using_post**](docs/TransferApi.md#transfer_cancel_using_post) | **POST** /transfer/cancel | 振込取消依頼
-*SwaggerClient::TransferApi* | [**transfer_fee_using_post**](docs/TransferApi.md#transfer_fee_using_post) | **POST** /transfer/transferfee | 振込手数料事前照会
-*SwaggerClient::TransferApi* | [**transfer_request_result_using_get**](docs/TransferApi.md#transfer_request_result_using_get) | **GET** /transfer/request-result | 振込依頼結果照会
-*SwaggerClient::TransferApi* | [**transfer_request_using_post**](docs/TransferApi.md#transfer_request_using_post) | **POST** /transfer/request | 振込依頼
-*SwaggerClient::TransferApi* | [**transfer_status_using_get**](docs/TransferApi.md#transfer_status_using_get) | **GET** /transfer/status | 振込状況照会
-*SwaggerClient::VirtualAccountApi* | [**deposit_transactions_using_get**](docs/VirtualAccountApi.md#deposit_transactions_using_get) | **GET** /va/deposit-transactions | 振込入金口座入金明細照会
-*SwaggerClient::VirtualAccountApi* | [**issue_using_post**](docs/VirtualAccountApi.md#issue_using_post) | **POST** /va/issue | 振込入金口座発行
-*SwaggerClient::VirtualAccountApi* | [**status_change_using_post**](docs/VirtualAccountApi.md#status_change_using_post) | **POST** /va/status-change | 振込入金口座状態変更
-*SwaggerClient::VirtualAccountApi* | [**va_close_request_using_post**](docs/VirtualAccountApi.md#va_close_request_using_post) | **POST** /va/close-request | 振込入金口座解約申込
-*SwaggerClient::VirtualAccountApi* | [**va_list_using_post**](docs/VirtualAccountApi.md#va_list_using_post) | **POST** /va/list | 振込入金口座一覧照会
+*SwaggerClient::AccountApi* | [**accounts_deposit_transactions_using_get**](/docs/corporation/AccountApi.md#accounts_deposit_transactions_using_get) | **GET** /accounts/deposit-transactions | 振込入金明細照会
+*SwaggerClient::AccountApi* | [**accounts_using_get**](/docs/corporation/AccountApi.md#accounts_using_get) | **GET** /accounts | 口座一覧照会
+*SwaggerClient::AccountApi* | [**balances_using_get**](/docs/corporation/AccountApi.md#balances_using_get) | **GET** /accounts/balances | 残高照会
+*SwaggerClient::AccountApi* | [**transactions_using_get**](/docs/corporation/AccountApi.md#transactions_using_get) | **GET** /accounts/transactions | 入出金明細照会
+*SwaggerClient::BulkTransferApi* | [**bulk_transfer_cancel_using_post**](/docs/corporation/BulkTransferApi.md#bulk_transfer_cancel_using_post) | **POST** /bulktransfer/cancel | 総合振込取消依頼
+*SwaggerClient::BulkTransferApi* | [**bulk_transfer_fee_using_post**](/docs/corporation/BulkTransferApi.md#bulk_transfer_fee_using_post) | **POST** /bulktransfer/transferfee | 総合振込手数料事前照会
+*SwaggerClient::BulkTransferApi* | [**bulk_transfer_request_result_using_get**](/docs/corporation/BulkTransferApi.md#bulk_transfer_request_result_using_get) | **GET** /bulktransfer/request-result | 総合振込依頼結果照会
+*SwaggerClient::BulkTransferApi* | [**bulk_transfer_request_using_post**](/docs/corporation/BulkTransferApi.md#bulk_transfer_request_using_post) | **POST** /bulktransfer/request | 総合振込依頼
+*SwaggerClient::BulkTransferApi* | [**bulk_transfer_status_using_get**](/docs/corporation/BulkTransferApi.md#bulk_transfer_status_using_get) | **GET** /bulktransfer/status | 総合振込状況照会
+*SwaggerClient::TransferApi* | [**transfer_cancel_using_post**](/docs/corporation/TransferApi.md#transfer_cancel_using_post) | **POST** /transfer/cancel | 振込取消依頼
+*SwaggerClient::TransferApi* | [**transfer_fee_using_post**](/docs/corporation/TransferApi.md#transfer_fee_using_post) | **POST** /transfer/transferfee | 振込手数料事前照会
+*SwaggerClient::TransferApi* | [**transfer_request_result_using_get**](/docs/corporation/TransferApi.md#transfer_request_result_using_get) | **GET** /transfer/request-result | 振込依頼結果照会
+*SwaggerClient::TransferApi* | [**transfer_request_using_post**](/docs/corporation/TransferApi.md#transfer_request_using_post) | **POST** /transfer/request | 振込依頼
+*SwaggerClient::TransferApi* | [**transfer_status_using_get**](/docs/corporation/TransferApi.md#transfer_status_using_get) | **GET** /transfer/status | 振込状況照会
+*SwaggerClient::VirtualAccountApi* | [**deposit_transactions_using_get**](/docs/corporation/VirtualAccountApi.md#deposit_transactions_using_get) | **GET** /va/deposit-transactions | 振込入金口座入金明細照会
+*SwaggerClient::VirtualAccountApi* | [**issue_using_post**](/docs/corporation/VirtualAccountApi.md#issue_using_post) | **POST** /va/issue | 振込入金口座発行
+*SwaggerClient::VirtualAccountApi* | [**status_change_using_post**](/docs/corporation/VirtualAccountApi.md#status_change_using_post) | **POST** /va/status-change | 振込入金口座状態変更
+*SwaggerClient::VirtualAccountApi* | [**va_close_request_using_post**](/docs/corporation/VirtualAccountApi.md#va_close_request_using_post) | **POST** /va/close-request | 振込入金口座解約申込
+*SwaggerClient::VirtualAccountApi* | [**va_list_using_post**](/docs/corporation/VirtualAccountApi.md#va_list_using_post) | **POST** /va/list | 振込入金口座一覧照会
 
 
 ## Documentation for Models
 
- - [SwaggerClient::Account](docs/Account.md)
- - [SwaggerClient::AccountsResponse](docs/AccountsResponse.md)
- - [SwaggerClient::Balance](docs/Balance.md)
- - [SwaggerClient::BalancesResponse](docs/BalancesResponse.md)
- - [SwaggerClient::BulkTransfer](docs/BulkTransfer.md)
- - [SwaggerClient::BulkTransferDetail](docs/BulkTransferDetail.md)
- - [SwaggerClient::BulkTransferInfo](docs/BulkTransferInfo.md)
- - [SwaggerClient::BulkTransferRequest](docs/BulkTransferRequest.md)
- - [SwaggerClient::BulkTransferRequestResponse](docs/BulkTransferRequestResponse.md)
- - [SwaggerClient::BulkTransferResponse](docs/BulkTransferResponse.md)
- - [SwaggerClient::BulkTransferStatusResponse](docs/BulkTransferStatusResponse.md)
- - [SwaggerClient::DepositTransactionsResponse](docs/DepositTransactionsResponse.md)
- - [SwaggerClient::ErrorDetail](docs/ErrorDetail.md)
- - [SwaggerClient::ErrorResponse](docs/ErrorResponse.md)
- - [SwaggerClient::PaymentArrival](docs/PaymentArrival.md)
- - [SwaggerClient::RequestTransferStatus](docs/RequestTransferStatus.md)
- - [SwaggerClient::Transaction](docs/Transaction.md)
- - [SwaggerClient::TransactionsResponse](docs/TransactionsResponse.md)
- - [SwaggerClient::Transfer](docs/Transfer.md)
- - [SwaggerClient::TransferAccept](docs/TransferAccept.md)
- - [SwaggerClient::TransferApply](docs/TransferApply.md)
- - [SwaggerClient::TransferApplyDetail](docs/TransferApplyDetail.md)
- - [SwaggerClient::TransferCancelRequest](docs/TransferCancelRequest.md)
- - [SwaggerClient::TransferCancelResponse](docs/TransferCancelResponse.md)
- - [SwaggerClient::TransferDetail](docs/TransferDetail.md)
- - [SwaggerClient::TransferDetailResponse](docs/TransferDetailResponse.md)
- - [SwaggerClient::TransferError](docs/TransferError.md)
- - [SwaggerClient::TransferErrorDetail](docs/TransferErrorDetail.md)
- - [SwaggerClient::TransferFeeDetail](docs/TransferFeeDetail.md)
- - [SwaggerClient::TransferFeeResponse](docs/TransferFeeResponse.md)
- - [SwaggerClient::TransferInfo](docs/TransferInfo.md)
- - [SwaggerClient::TransferQueryBulkResponse](docs/TransferQueryBulkResponse.md)
- - [SwaggerClient::TransferRequest](docs/TransferRequest.md)
- - [SwaggerClient::TransferRequestResponse](docs/TransferRequestResponse.md)
- - [SwaggerClient::TransferRequestResultResponse](docs/TransferRequestResultResponse.md)
- - [SwaggerClient::TransferResponse](docs/TransferResponse.md)
- - [SwaggerClient::TransferStatusResponse](docs/TransferStatusResponse.md)
- - [SwaggerClient::UnableDetailInfo](docs/UnableDetailInfo.md)
- - [SwaggerClient::VAccount](docs/VAccount.md)
- - [SwaggerClient::Va](docs/Va.md)
- - [SwaggerClient::VaCloseRequest](docs/VaCloseRequest.md)
- - [SwaggerClient::VaCloseRequestResponse](docs/VaCloseRequestResponse.md)
- - [SwaggerClient::VaDepositTransactionsResponse](docs/VaDepositTransactionsResponse.md)
- - [SwaggerClient::VaId](docs/VaId.md)
- - [SwaggerClient::VaIssueRequest](docs/VaIssueRequest.md)
- - [SwaggerClient::VaIssueResponse](docs/VaIssueResponse.md)
- - [SwaggerClient::VaListRequest](docs/VaListRequest.md)
- - [SwaggerClient::VaListResponse](docs/VaListResponse.md)
- - [SwaggerClient::VaStatusChangeRequest](docs/VaStatusChangeRequest.md)
- - [SwaggerClient::VaStatusChangeResponse](docs/VaStatusChangeResponse.md)
- - [SwaggerClient::VaStatusCode](docs/VaStatusCode.md)
- - [SwaggerClient::VaTransaction](docs/VaTransaction.md)
+ - [SwaggerClient::Account](/docs/corporation/Account.md)
+ - [SwaggerClient::AccountsResponse](/docs/corporation/AccountsResponse.md)
+ - [SwaggerClient::Balance](/docs/corporation/Balance.md)
+ - [SwaggerClient::BalancesResponse](/docs/corporation/BalancesResponse.md)
+ - [SwaggerClient::BulkTransfer](/docs/corporation/BulkTransfer.md)
+ - [SwaggerClient::BulkTransferDetail](/docs/corporation/BulkTransferDetail.md)
+ - [SwaggerClient::BulkTransferInfo](/docs/corporation/BulkTransferInfo.md)
+ - [SwaggerClient::BulkTransferRequest](/docs/corporation/BulkTransferRequest.md)
+ - [SwaggerClient::BulkTransferRequestResponse](/docs/corporation/BulkTransferRequestResponse.md)
+ - [SwaggerClient::BulkTransferResponse](/docs/corporation/BulkTransferResponse.md)
+ - [SwaggerClient::BulkTransferStatusResponse](/docs/corporation/BulkTransferStatusResponse.md)
+ - [SwaggerClient::DepositTransactionsResponse](/docs/corporation/DepositTransactionsResponse.md)
+ - [SwaggerClient::ErrorDetail](/docs/corporation/ErrorDetail.md)
+ - [SwaggerClient::ErrorResponse](/docs/corporation/ErrorResponse.md)
+ - [SwaggerClient::PaymentArrival](/docs/corporation/PaymentArrival.md)
+ - [SwaggerClient::RequestTransferStatus](/docs/corporation/RequestTransferStatus.md)
+ - [SwaggerClient::Transaction](/docs/corporation/Transaction.md)
+ - [SwaggerClient::TransactionsResponse](/docs/corporation/TransactionsResponse.md)
+ - [SwaggerClient::Transfer](/docs/corporation/Transfer.md)
+ - [SwaggerClient::TransferAccept](/docs/corporation/TransferAccept.md)
+ - [SwaggerClient::TransferApply](/docs/corporation/TransferApply.md)
+ - [SwaggerClient::TransferApplyDetail](/docs/corporation/TransferApplyDetail.md)
+ - [SwaggerClient::TransferCancelRequest](/docs/corporation/TransferCancelRequest.md)
+ - [SwaggerClient::TransferCancelResponse](/docs/corporation/TransferCancelResponse.md)
+ - [SwaggerClient::TransferDetail](/docs/corporation/TransferDetail.md)
+ - [SwaggerClient::TransferDetailResponse](/docs/corporation/TransferDetailResponse.md)
+ - [SwaggerClient::TransferError](/docs/corporation/TransferError.md)
+ - [SwaggerClient::TransferErrorDetail](/docs/corporation/TransferErrorDetail.md)
+ - [SwaggerClient::TransferFeeDetail](/docs/corporation/TransferFeeDetail.md)
+ - [SwaggerClient::TransferFeeResponse](/docs/corporation/TransferFeeResponse.md)
+ - [SwaggerClient::TransferInfo](/docs/corporation/TransferInfo.md)
+ - [SwaggerClient::TransferQueryBulkResponse](/docs/corporation/TransferQueryBulkResponse.md)
+ - [SwaggerClient::TransferRequest](/docs/corporation/TransferRequest.md)
+ - [SwaggerClient::TransferRequestResponse](/docs/corporation/TransferRequestResponse.md)
+ - [SwaggerClient::TransferRequestResultResponse](/docs/corporation/TransferRequestResultResponse.md)
+ - [SwaggerClient::TransferResponse](/docs/corporation/TransferResponse.md)
+ - [SwaggerClient::TransferStatusResponse](/docs/corporation/TransferStatusResponse.md)
+ - [SwaggerClient::UnableDetailInfo](/docs/corporation/UnableDetailInfo.md)
+ - [SwaggerClient::VAccount](/docs/corporation/VAccount.md)
+ - [SwaggerClient::Va](/docs/corporation/Va.md)
+ - [SwaggerClient::VaCloseRequest](/docs/corporation/VaCloseRequest.md)
+ - [SwaggerClient::VaCloseRequestResponse](/docs/corporation/VaCloseRequestResponse.md)
+ - [SwaggerClient::VaDepositTransactionsResponse](/docs/corporation/VaDepositTransactionsResponse.md)
+ - [SwaggerClient::VaId](/docs/corporation/VaId.md)
+ - [SwaggerClient::VaIssueRequest](/docs/corporation/VaIssueRequest.md)
+ - [SwaggerClient::VaIssueResponse](/docs/corporation/VaIssueResponse.md)
+ - [SwaggerClient::VaListRequest](/docs/corporation/VaListRequest.md)
+ - [SwaggerClient::VaListResponse](/docs/corporation/VaListResponse.md)
+ - [SwaggerClient::VaStatusChangeRequest](/docs/corporation/VaStatusChangeRequest.md)
+ - [SwaggerClient::VaStatusChangeResponse](/docs/corporation/VaStatusChangeResponse.md)
+ - [SwaggerClient::VaStatusCode](/docs/corporation/VaStatusCode.md)
+ - [SwaggerClient::VaTransaction](/docs/corporation/VaTransaction.md)
 
 
 ## Documentation for Authorization

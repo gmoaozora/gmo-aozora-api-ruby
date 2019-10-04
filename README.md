@@ -84,7 +84,7 @@ ruby -Ilib script.rb
 ## Documentation 
 
  - [Authorization](docs/authorization)
- - [Corporate](docs/corporate)
+ - [Corporation](docs/corporation)
  - [Personal](docs/personal)
  - [Webhook](docs/webhook)
 

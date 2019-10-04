@@ -252,10 +252,6 @@ module SwaggerClient
     # Custom attribute writer method with validation
     # @param [Object] id_token Value to be assigned
     def id_token=(id_token)
-      if !id_token.nil? && id_token.to_s.length > 20
-        fail ArgumentError, 'invalid value for "id_token", the character length must be smaller than or equal to 20.'
-      end
-
       if !id_token.nil? && id_token.to_s.length < 1
         fail ArgumentError, 'invalid value for "id_token", the character length must be great than or equal to 1.'
       end
