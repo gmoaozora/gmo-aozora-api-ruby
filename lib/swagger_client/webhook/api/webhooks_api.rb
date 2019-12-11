@@ -16,7 +16,7 @@ module SwaggerClient
   class WebhooksApi
     attr_accessor :api_client
 
-    def initialize(api_client = ApiClient.default("webhook"))
+    def initialize(api_client = ApiClient.default("webhooks"))
       @api_client = api_client
     end
     # 通知配信制御

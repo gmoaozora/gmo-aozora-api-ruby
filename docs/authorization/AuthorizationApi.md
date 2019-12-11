@@ -1,6 +1,6 @@
 # SwaggerClient::AuthorizationApi
 
-All URIs are relative to *https://api.gmo-aozora.com/ganb/api/auth/v1*
+All URIs are relative to *https://stg-api.gmo-aozora.com/ganb/api/auth/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -10,7 +10,7 @@ Method | HTTP request | Description
 # **authorization**
 > authorization(client_id, redirect_uri, response_type, scope, state, opts)
 
-認可
+### 認可
 
 クライアントがユーザーの認証・認可を得るためのエンドポイント
 
@@ -66,6 +66,3 @@ No authorization required
 
  - **Content-Type**: application/json;charset=UTF-8
  - **Accept**: application/json;charset=UTF-8
-
-
-
