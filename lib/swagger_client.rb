@@ -17,14 +17,25 @@ require 'swagger_client/version'
 require 'swagger_client/configuration'
 
 # Models
-require 'swagger_client/auth/models/authorization_response'
-require 'swagger_client/auth/models/error_response'
-require 'swagger_client/auth/models/token_request'
-require 'swagger_client/auth/models/token_response'
+## auth
+Dir.glob(File.expand_path('../swagger_client/auth/models/*', __FILE__)).each do |file|
+  require file
+end
+## webhooks
+Dir.glob(File.expand_path('../swagger_client/webhook/models/*', __FILE__)).each do |file|
+  require file
+end
+
 
 # APIs
+## auth
 require 'swagger_client/auth/api/authorization_api'
 require 'swagger_client/auth/api/token_api'
+## webhooks
+Dir.glob(File.expand_path('../swagger_client/webhook/api/*', __FILE__)).each do |file|
+  require file
+end
+
 
 module SwaggerClient
   class << self
