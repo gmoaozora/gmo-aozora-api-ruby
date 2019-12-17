@@ -301,8 +301,8 @@ module SwaggerClient
         invalid_properties.push('invalid value for "partner_name", partner_name cannot be nil.')
       end
 
-      if @partner_name.to_s.length > 10
-        invalid_properties.push('invalid value for "partner_name", the character length must be smaller than or equal to 10.')
+      if @partner_name.to_s.length > 50
+        invalid_properties.push('invalid value for "partner_name", the character length must be smaller than or equal to 50.')
       end
 
       if @partner_name.to_s.length < 1
@@ -369,7 +369,7 @@ module SwaggerClient
       return false if @payment_branch_name.to_s.length > 15
       return false if @payment_branch_name.to_s.length < 1
       return false if @partner_name.nil?
-      return false if @partner_name.to_s.length > 10
+      return false if @partner_name.to_s.length > 50
       return false if @partner_name.to_s.length < 1
       return false if !@remarks.nil? && @remarks.to_s.length > 255
       return false if !@remarks.nil? && @remarks.to_s.length < 1
@@ -584,8 +584,8 @@ module SwaggerClient
         fail ArgumentError, 'partner_name cannot be nil'
       end
 
-      if partner_name.to_s.length > 10
-        fail ArgumentError, 'invalid value for "partner_name", the character length must be smaller than or equal to 10.'
+      if partner_name.to_s.length > 50
+        fail ArgumentError, 'invalid value for "partner_name", the character length must be smaller than or equal to 50.'
       end
 
       if partner_name.to_s.length < 1
