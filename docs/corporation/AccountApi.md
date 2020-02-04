@@ -330,19 +330,14 @@ rescue SwaggerClient::ApiError => e
   puts "Exception when calling AccountApi->visa_transactions_using_get: #{e}"
 end
 ```
-### Required Parameters
+### Parameters
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **account_id** | **string**| 口座ID 半角英数字 口座を識別するID 科目コードが以下の場合のみ受け付けます ・01&#x3D;普通預金（有利息） ・02&#x3D;普通預金（決済用）  minLength: 12 maxLength: 29  | |
- **x_access_token** | **string**| アクセストークン  minLength: 1 maxLength: 128             | |
- **opts** | ***VisaTransactionsUsingGETOpts** | optional parameters | nil if no parameters
-### Optional Parameters
-Optional parameters are passed through a pointer to a VisaTransactionsUsingGETOpts struct
-Name | Type | Description  | Notes
-------------- | ------------- | ------------- | -------------
- **date_from** | **optional.String**| 対象期間From 半角文字 YYYY-MM-DD形式  minLength: 10 maxLength: 10  | |
- **date_to** | **optional.String**| 対象期間To 半角文字 YYYY-MM-DD形式 対象期間Fromと対象期間Toを指定する場合は、対象期間From≦対象期間Toとし、それ以外は「400 Bad Request」を返却  minLength: 10 maxLength: 10  |  |
- **next_item_key** | **optional.String**| 次明細キー 半角数字 初回要求時は未設定 初回応答で次明細キーが「true」の場合、返却された同項目を2回目以降に設定  minLength: 1 maxLength: 24  | |
+ **account_id** | **String**| 口座ID 半角英数字 口座を識別するID 科目コードが以下の場合のみ受け付けます ・01&#x3D;普通預金（有利息） ・02&#x3D;普通預金（決済用）  minLength: 12 maxLength: 29  | |
+ **x_access_token** | **String**| アクセストークン  minLength: 1 maxLength: 128             | |
+ **date_from** | **String**| 対象期間From 半角文字 YYYY-MM-DD形式  minLength: 10 maxLength: 10  | [optional] 
+ **date_to** | **String**| 対象期間To 半角文字 YYYY-MM-DD形式 対象期間Fromと対象期間Toを指定する場合は、対象期間From≦対象期間Toとし、それ以外は「400 Bad Request」を返却  minLength: 10 maxLength: 10  |  [optional] 
+ **next_item_key** | **String**| 次明細キー 半角数字 初回要求時は未設定 初回応答で次明細キーが「true」の場合、返却された同項目を2回目以降に設定  minLength: 1 maxLength: 24  | [optional] 
 ### Return type
 [**VisaTransactionsResponse**](VisaTransactionsResponse.md)
 ### Authorization
