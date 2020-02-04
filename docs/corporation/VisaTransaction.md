@@ -4,7 +4,7 @@
 Name | Type | Description | Notes
 ------------ | ------------- | ------------- | -------------
 **use_date** | **String** | 利用日 半角文字 YYYY-MM-DD形式  | [optional]
-**use_content** | **String** | 利用内容 半角文字 | [optional]
+**use_content** | **String** | 利用内容 全半角文字 | [optional]
 **amount** | **String** | 利用金額 半角数字 マイナス含む 円貨金額 | [optional]
 **local_currency_amount** | **String** | 現地通貨金額 半角数字 小数部最大6桁 マイナス含む 国内利用の場合は項目自体を設定しません | [optional]
 **conversion_rate** | **String** | 円換算レート 半角数字 小数部最大6桁 マイナス含む 国内利用の場合は項目自体を設定しません | [optional]
